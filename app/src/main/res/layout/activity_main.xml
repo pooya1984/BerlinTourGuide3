@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00695C"
+    tools:context="com.example.android.berlintourguide.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/history_image"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="#B2FF59"
+            android:src="@drawable/history" />
+
+        <TextView
+            android:id="@+id/history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:onClick="historyList"
+            android:text="HISTORY"
+            android:textColor="#B2FF59"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/out_door_image"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="16dp"
+            android:background="#607D8B"
+            android:src="@drawable/out_door" />
+
+        <TextView
+            android:id="@+id/out_door"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:text="OUTDOOR"
+            android:onClick="outDoorList"
+            android:textColor="#FFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/first"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/dinner_image"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="#FFEB3B"
+            android:src="@drawable/dinner" />
+
+        <TextView
+            android:id="@+id/dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:text="DINNER"
+            android:onClick="dinnerList"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/sport_image"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="16dp"
+            android:background="#EF5350"
+            android:src="@drawable/sport" />
+
+        <TextView
+            android:id="@+id/sport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:text="SPORT"
+            android:onClick="sportList"
+            android:textColor="#EF5350"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

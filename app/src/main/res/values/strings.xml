@@ -1,0 +1,41 @@
+<resources>
+<string name="app_name">BerlinTourGuide</string>
+<string name="category_Dinner">Dinner</string>
+<string name="category_history">History</string>
+<string name="category_outDoor">Out Door</string>
+<string name="category_sport">Sport</string>
+
+ <string name="category_Tier_Park">Tier Park</string>
+<string name="Adress_U_Tier_Park" >Adress: U-Tier Park</string>
+<string name="fernsehturm"  >fernsehturm</string>
+<string name="Adress_Alexander_Platz">Adress: Alexander Platz</string>
+<string name="Berlin_Wall" >Berlin Wall</string>
+<string name="Adress_Warschauer_Straße">Adress: Warschauer Straße</string>
+<string name="Broken_church">Broken church</string>
+<string name="Adress_zooloogische_Garten">Adress: zooloogische Garten</string>
+
+
+ <string name="Ice_Hoky">Ice Hoky</string>
+ <string name="Adress_Reinickendorf" >Adress: Reinickendorf</string>
+ <string name="Golf"  >Golf</string>
+ <string name="Adress_Spandau">Adress: Adress: Spandau</string>
+ <string name="Tenesiy" >Tennis</string>
+ <string name="Adress_Steglitz">Adress: Steglitz</string>
+ <string name="jogging">jogging</string>
+ <string name="Adress_Tier_Garten">Adress: Adress: Tier Garten</string>
+
+ <string name="Brandenburg_Gate">Brandenburg Gate</string>
+ <string name="Adress_Brandenburger_Tor" >Adress: Adress: Brandenburger Tor</string>
+
+ <string name="Burger_King">Burger King</string>
+ <string name="Adress_Potsdamer_Platz" >Adress: Potsdamer Platz</string>
+ <string name="Vapiano"  >Vapiano</string>
+ <string name="Sakura" >Sakura</string>
+ <string name="Adress_Kurfürstenstraße">Adress: Kurfürstenstraße</string>
+ <string name="Burrito_Berlin">Burrito-Berlin</string>
+ <string name="Adress_Nollendorfstrasse">Adress: Nollendorfstrasse</string>
+
+
+
+</resources>
+
